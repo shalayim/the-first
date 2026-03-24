@@ -3,21 +3,6 @@
 <img width="2405" height="586" alt="logo" src="https://github.com/user-attachments/assets/97f1bfa0-1777-4ce3-9766-5a37f7d600be" />
 <div align="center">
 
-![logo](./images/logo.png)
-
-</div>
-
-
-
-
-
-</div>
-
-<div align="center">
-
-![GitHub Trend](https://trendshift.io/api/badge/repositories/12586)
-
-</div>
 
 <div align="center">
   <h3>"大道至简"</h3>
@@ -25,9 +10,7 @@
 
 <div align="center">
 
-中文 | [English](./README_en.md)
 
-</div>
 
 * 此开源项目旨在完全从0开始，仅用3块钱成本 + 2小时！即可训练出仅为25.8M的超小语言模型**MiniMind**。
 * **MiniMind**系列极其轻量，最小版本体积是 GPT-3 的 $\frac{1}{7000}$，力求做到最普通的个人GPU也可快速训练。
@@ -37,9 +20,7 @@
 * 这不仅是大语言模型的全阶段开源复现，也是一个入门LLM的教程。
 * 希望此项目能为所有人提供一个抛砖引玉的示例，一起感受创造的乐趣！推动更广泛AI社区的进步！
 
-> 为防止误解，“2小时” 基于NVIDIA 3090硬件设备（单卡）测试，“3块钱”指GPU服务器租用成本，具体规格详情见下文。
 
----
 
 
 <div align="center">
