@@ -28,6 +28,20 @@
 
 
 
+首先感谢Chatgpt与Claude对本项目的大力支持。
+
+我使用的是Ubuntu22.04，系统配置如下
+<img width="2162" height="1057" alt="image" src="https://github.com/user-attachments/assets/1715a059-9270-44ed-b57f-0f1b730856fe" />
+最核心的显卡是英伟达的3090，24G的显存可以说是卡在模型训练的最低要求，并不是图便宜，而是我选的那家服务器提供商大多的配置已经被抢购空了，只剩下特别贵的与特别捞的，恰好剩下一台3090刚好能满足要求。
+
+具体教程在原项目已经给的很清楚了，照着做就行了。
+即便如此，我在此期间也踩了不少的坑。首先就是Python与Python3的不同，显示的command not found让我一度以为这台机子没装Python，后来才发现它预装的是Python3，而早期的Linux默认的输入python命令是调用Python2.x，所以很多系统都是保留两个命令用于兼容旧程序。
+那还能说啥了，把代码里的python改python3呗。
+
+Python解决了就开始环境准备，在测试Torch是否可用cuda时我再次犯了个错，直接把print命令输到linux根目录里了，结果当然又是喜闻乐见的command not found。各位初学者在这里一定要记得先打开Python3，在>>>后面输入那条检测命令。
+
+
+
 
 <img width="2174" height="1037" alt="image" src="https://github.com/user-attachments/assets/699ab289-a01d-44ff-9c41-fdd8b56dfd7e" />
 
